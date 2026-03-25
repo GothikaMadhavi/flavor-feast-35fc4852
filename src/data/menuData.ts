@@ -70,7 +70,7 @@ export const menuItems: MenuItem[] = [
   { id: "d6", name: "Oreo Shake", price: 140, rating: 4.5, image: "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=400&h=300&fit=crop", category: "drinks", isVeg: true },
   { id: "d7", name: "Watermelon Juice", price: 70, rating: 4.3, image: "https://images.unsplash.com/photo-1534353473418-4cfa6c56fd38?w=400&h=300&fit=crop", category: "drinks", isVeg: true },
   { id: "d8", name: "Mojito", price: 110, rating: 4.4, image: "https://images.unsplash.com/photo-1551538827-9c037cb4f32a?w=400&h=300&fit=crop", category: "drinks", isVeg: true },
-  { id: "d9", name: "Buttermilk", price: 50, rating: 4.2, image: "https://images.unsplash.com/photo-1626078437901-8e3b1a5a6e1b?w=400&h=300&fit=crop", category: "drinks", isVeg: true },
+  { id: "d9", name: "Buttermilk", price: 50, rating: 4.2, image: "https://images.unsplash.com/photo-1541658016709-82535e94bc69?w=400&h=300&fit=crop", category: "drinks", isVeg: true },
   { id: "d10", name: "Hot Chocolate", price: 130, rating: 4.6, image: "https://images.unsplash.com/photo-1542990253-0d0f5be5f0ed?w=400&h=300&fit=crop", category: "drinks", isVeg: true },
 
   // Ice Cream
