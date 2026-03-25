@@ -66,6 +66,7 @@ export const menuItems: MenuItem[] = [
   // Drinks
   { id: "d1", name: "Mango Lassi", price: 80, rating: 4.5, image: "https://images.unsplash.com/photo-1527661591475-527312dd65f5?w=400&h=300&fit=crop", category: "drinks", isVeg: true },
   { id: "d2", name: "Cold Coffee", price: 100, rating: 4.4, image: "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=400&h=300&fit=crop", category: "drinks", isVeg: true },
+  { id: "d4", name: "Strawberry Shake", price: 120, rating: 4.6, image: "https://images.unsplash.com/photo-1553530666-ba11a7da3888?w=400&h=300&fit=crop", category: "drinks", isVeg: true },
   { id: "d6", name: "Oreo Shake", price: 140, rating: 4.5, image: "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=400&h=300&fit=crop", category: "drinks", isVeg: true },
   { id: "d7", name: "Watermelon Juice", price: 70, rating: 4.3, image: "https://images.unsplash.com/photo-1534353473418-4cfa6c56fd38?w=400&h=300&fit=crop", category: "drinks", isVeg: true },
   { id: "d8", name: "Mojito", price: 110, rating: 4.4, image: "https://images.unsplash.com/photo-1551538827-9c037cb4f32a?w=400&h=300&fit=crop", category: "drinks", isVeg: true },
