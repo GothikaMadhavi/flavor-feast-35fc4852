@@ -1,0 +1,70 @@
+export interface MenuItem {
+  id: string;
+  name: string;
+  price: number;
+  rating: number;
+  image: string;
+  category: string;
+  isVeg: boolean;
+}
+
+export const menuItems: MenuItem[] = [
+  // Veg items
+  { id: "v1", name: "Paneer Butter Masala", price: 220, rating: 4.5, image: "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=400&h=300&fit=crop", category: "veg", isVeg: true },
+  { id: "v2", name: "Dal Tadka", price: 160, rating: 4.3, image: "https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=400&h=300&fit=crop", category: "veg", isVeg: true },
+  { id: "v3", name: "Veg Biryani", price: 200, rating: 4.4, image: "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=400&h=300&fit=crop", category: "veg", isVeg: true },
+  { id: "v4", name: "Palak Paneer", price: 210, rating: 4.2, image: "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=400&h=300&fit=crop", category: "veg", isVeg: true },
+  { id: "v5", name: "Aloo Gobi", price: 150, rating: 4.0, image: "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=400&h=300&fit=crop", category: "veg", isVeg: true },
+  { id: "v6", name: "Chole Bhature", price: 140, rating: 4.6, image: "https://images.unsplash.com/photo-1626132647523-66f5bf380027?w=400&h=300&fit=crop", category: "veg", isVeg: true },
+
+  // Non-Veg items
+  { id: "nv1", name: "Chicken Biryani", price: 280, rating: 4.7, image: "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=400&h=300&fit=crop", category: "nonveg", isVeg: false },
+  { id: "nv2", name: "Butter Chicken", price: 300, rating: 4.8, image: "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=400&h=300&fit=crop", category: "nonveg", isVeg: false },
+  { id: "nv3", name: "Mutton Rogan Josh", price: 350, rating: 4.5, image: "https://images.unsplash.com/photo-1574653853027-5382a3d23a15?w=400&h=300&fit=crop", category: "nonveg", isVeg: false },
+  { id: "nv4", name: "Fish Curry", price: 260, rating: 4.3, image: "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?w=400&h=300&fit=crop", category: "nonveg", isVeg: false },
+  { id: "nv5", name: "Tandoori Chicken", price: 320, rating: 4.6, image: "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=400&h=300&fit=crop", category: "nonveg", isVeg: false },
+
+  // Noodles
+  { id: "n1", name: "Hakka Noodles", price: 150, rating: 4.2, image: "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=400&h=300&fit=crop", category: "noodles", isVeg: true },
+  { id: "n2", name: "Schezwan Noodles", price: 170, rating: 4.4, image: "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?w=400&h=300&fit=crop", category: "noodles", isVeg: true },
+  { id: "n3", name: "Chicken Chow Mein", price: 190, rating: 4.5, image: "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?w=400&h=300&fit=crop", category: "noodles", isVeg: false },
+  { id: "n4", name: "Pad Thai", price: 220, rating: 4.6, image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=400&h=300&fit=crop", category: "noodles", isVeg: false },
+
+  // Pizza
+  { id: "p1", name: "Margherita Pizza", price: 250, rating: 4.3, image: "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=400&h=300&fit=crop", category: "pizza", isVeg: true },
+  { id: "p2", name: "Pepperoni Pizza", price: 350, rating: 4.7, image: "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=400&h=300&fit=crop", category: "pizza", isVeg: false },
+  { id: "p3", name: "BBQ Chicken Pizza", price: 380, rating: 4.6, image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=400&h=300&fit=crop", category: "pizza", isVeg: false },
+  { id: "p4", name: "Veggie Supreme", price: 300, rating: 4.4, image: "https://images.unsplash.com/photo-1571407970349-bc81e7e96d47?w=400&h=300&fit=crop", category: "pizza", isVeg: true },
+  { id: "p5", name: "Cheese Burst Pizza", price: 330, rating: 4.5, image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=400&h=300&fit=crop", category: "pizza", isVeg: true },
+
+  // Burger
+  { id: "b1", name: "Classic Veg Burger", price: 120, rating: 4.1, image: "https://images.unsplash.com/photo-1550547660-d9450f859349?w=400&h=300&fit=crop", category: "burger", isVeg: true },
+  { id: "b2", name: "Chicken Burger", price: 160, rating: 4.5, image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400&h=300&fit=crop", category: "burger", isVeg: false },
+  { id: "b3", name: "Double Cheese Burger", price: 200, rating: 4.6, image: "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?w=400&h=300&fit=crop", category: "burger", isVeg: false },
+  { id: "b4", name: "Paneer Tikka Burger", price: 150, rating: 4.3, image: "https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?w=400&h=300&fit=crop", category: "burger", isVeg: true },
+
+  // Drinks
+  { id: "d1", name: "Mango Lassi", price: 80, rating: 4.5, image: "https://images.unsplash.com/photo-1527661591475-527312dd65f5?w=400&h=300&fit=crop", category: "drinks", isVeg: true },
+  { id: "d2", name: "Cold Coffee", price: 100, rating: 4.4, image: "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=400&h=300&fit=crop", category: "drinks", isVeg: true },
+  { id: "d3", name: "Fresh Lime Soda", price: 60, rating: 4.2, image: "https://images.unsplash.com/photo-1513558161293-cdaf765ed514?w=400&h=300&fit=crop", category: "drinks", isVeg: true },
+  { id: "d4", name: "Strawberry Shake", price: 120, rating: 4.6, image: "https://images.unsplash.com/photo-1553530666-ba11a7da3888?w=400&h=300&fit=crop", category: "drinks", isVeg: true },
+  { id: "d5", name: "Masala Chai", price: 40, rating: 4.7, image: "https://images.unsplash.com/photo-1571934811356-5cc061b6201f?w=400&h=300&fit=crop", category: "drinks", isVeg: true },
+
+  // Ice Cream
+  { id: "ic1", name: "Chocolate Sundae", price: 150, rating: 4.7, image: "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=400&h=300&fit=crop", category: "icecream", isVeg: true },
+  { id: "ic2", name: "Butterscotch Scoop", price: 90, rating: 4.3, image: "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=400&h=300&fit=crop", category: "icecream", isVeg: true },
+  { id: "ic3", name: "Mango Ice Cream", price: 100, rating: 4.5, image: "https://images.unsplash.com/photo-1501443762994-82bd5dace89a?w=400&h=300&fit=crop", category: "icecream", isVeg: true },
+  { id: "ic4", name: "Kulfi", price: 70, rating: 4.6, image: "https://images.unsplash.com/photo-1488900128323-21503983a07e?w=400&h=300&fit=crop", category: "icecream", isVeg: true },
+  { id: "ic5", name: "Vanilla Waffle Cone", price: 110, rating: 4.4, image: "https://images.unsplash.com/photo-1570197788417-0e82375c9371?w=400&h=300&fit=crop", category: "icecream", isVeg: true },
+];
+
+export const categories = [
+  { id: "all", label: "All", icon: "🍽️" },
+  { id: "veg", label: "Veg", icon: "🥬" },
+  { id: "nonveg", label: "Non Veg", icon: "🍗" },
+  { id: "noodles", label: "Noodles", icon: "🍜" },
+  { id: "pizza", label: "Pizza", icon: "🍕" },
+  { id: "burger", label: "Burger", icon: "🍔" },
+  { id: "drinks", label: "Drinks", icon: "🥤" },
+  { id: "icecream", label: "Ice Cream", icon: "🍦" },
+];
