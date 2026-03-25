@@ -64,7 +64,7 @@ export const menuItems: MenuItem[] = [
   { id: "b8", name: "BBQ Bacon Burger", price: 220, rating: 4.7, image: "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=400&h=300&fit=crop", category: "burger", isVeg: false },
 
   // Drinks
-  { id: "d1", name: "Chocolate Thick Shake", price: 130, rating: 4.6, image: "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=400&h=300&fit=crop", category: "drinks", isVeg: true },
+  { id: "d1", name: "Chocolate Thick Shake", price: 130, rating: 4.6, image: "https://images.unsplash.com/photo-1541658016709-82535e94bc69?w=400&h=300&fit=crop", category: "drinks", isVeg: true },
   { id: "d2", name: "Cold Coffee", price: 100, rating: 4.4, image: "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=400&h=300&fit=crop", category: "drinks", isVeg: true },
   { id: "d4", name: "Strawberry Shake", price: 120, rating: 4.6, image: "https://images.unsplash.com/photo-1553530666-ba11a7da3888?w=400&h=300&fit=crop", category: "drinks", isVeg: true },
   { id: "d6", name: "Oreo Shake", price: 140, rating: 4.5, image: "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=400&h=300&fit=crop", category: "drinks", isVeg: true },
