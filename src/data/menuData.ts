@@ -82,7 +82,7 @@ export const menuItems: MenuItem[] = [
   { id: "ic6", name: "Strawberry Gelato", price: 130, rating: 4.5, image: "https://images.unsplash.com/photo-1557142046-c704a3adf364?w=400&h=300&fit=crop", category: "icecream", isVeg: true },
   { id: "ic7", name: "Pista Ice Cream", price: 120, rating: 4.4, image: "https://images.unsplash.com/photo-1560008581-09826d1de69e?w=400&h=300&fit=crop", category: "icecream", isVeg: true },
   { id: "ic8", name: "Cookie Dough Scoop", price: 140, rating: 4.6, image: "https://images.unsplash.com/photo-1580915411954-282cb1b0d780?w=400&h=300&fit=crop", category: "icecream", isVeg: true },
-  { id: "ic9", name: "Banana Split", price: 180, rating: 4.7, image: "https://images.unsplash.com/photo-1432457990754-c8b5f21448de?w=400&h=300&fit=crop", category: "icecream", isVeg: true },
+  { id: "ic9", name: "Choco Lava Cake Cup", price: 160, rating: 4.7, image: "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=400&h=300&fit=crop", category: "icecream", isVeg: true },
 ];
 
 export const categories = [
